@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu-container {
+    background-color: rgb(40, 38, 38);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 80px;
+}
+.menus {
+    display: flex;
+}
+.menu-text {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.menu-text:hover {
+    color: darkblue;
+}
+.logo-img {
+    width: 120px;
+}
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("images/background.png"), linear-gradient(45deg, #000, #322f2f);
+    color: white;
+}
+.title {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.description {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.btn {
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    color: red;
+    background-color: white;
+}
+.banner-img {
+    width: 400px;
+}
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-img {
+    width: 250px;
+}
+.about-title {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.about-btn {
+    margin-top: 10px;
+}
+.a-text {
+    text-align: center;
+    padding: 25px;
+}
+.services {
+    background-color: #171616;
+    color: white;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.card {
+    background-color: #171616;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+    width: 220px;
+    height: 300px;
+    box-shadow: 0 0 25px rgba(238, 232, 232, 0.5);
+}
+.card-logo {
+    width: 70px;
+}
+.card-btn {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: rgba(238, 232, 232, 0.5);
+}
